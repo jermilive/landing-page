@@ -1,0 +1,105 @@
+body {
+  max-width: 100%;
+  background-color: black;
+  font-family: Garamond, Sans-Serif;
+  margin: 0;
+  /* overflow: hidden; */
+}
+
+
+.me-and-lilj {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: auto;
+  /* filter: drop-shadow(8px 8px 10px lightcyan); */
+  border-radius: 8px;
+  box-shadow: 12px 10px 10px 0 rgba(95, 168, 168, 0.8);
+}
+#intro {
+  padding: 20px;
+  color: lightcyan;
+  text-align: center;
+}
+h3 {
+  display: block;
+  color: lightcyan;
+  text-align: center;
+}
+#name {
+  text-align: center;
+  color: lightcyan;
+}
+p {
+  color: lightcyan;
+  text-align: center;
+  padding: 1px;
+  letter-spacing: 2.5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightcyan;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to darkcyan on hover */
+li a:hover {
+  background-color: darkcyan;
+}
+
+.projects {
+  float: right;
+}
+.container {
+  text-align: center;
+}
+
+label {
+  align-content: center;
+}
+
+#image-of-code {
+  position: relative;
+  /* display: inline-block; */
+  border-radius: 12px;
+  max-width: 100px;
+  height: auto;
+  box-shadow: 12px 10px 8px rgba(95, 168, 168, 0.6);
+  
+}
+
+h4 {
+  text-align: center;
+  color: lightcyan;
+}
+
+#filler {
+  background-color: #141d26;
+  border: 1px solid darkcyan;
+  color: lightcyan;
+  text-align: center;
+}
+.projects-container {
+float: left;
+width: 33.33%;
+padding: 5px;
+
+
+}
+
+
+
