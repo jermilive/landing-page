@@ -1,34 +1,33 @@
 body {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
   background-color: black;
   font-family: Garamond, Sans-Serif;
+  color: lightcyan;
   margin: 0;
   /* overflow: hidden; */
 }
 
-.me-and-lilj {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
-  height: auto;
-  /* filter: drop-shadow(8px 8px 10px lightcyan); */
-  border-radius: 8px;
-  box-shadow: 12px 10px 10px 0 rgba(95, 168, 168, 0.8);
-}
-#intro {
+.name {
+  /* margin-top: 2rem; */
   padding: 20px;
-  color: lightcyan;
+  /* color: lightcyan; */
   text-align: center;
+}
+
+h1 {
+  display: block;
+  margin: 1.5em;
+  margin-bottom: 1em;
 }
 h3 {
   display: block;
-  color: lightcyan;
+  /* color: lightcyan; */
   text-align: center;
 }
 #name {
   text-align: center;
-  color: lightcyan;
+  /* color: lightcyan; */
 }
 p {
   color: lightcyan;
@@ -37,7 +36,8 @@ p {
   letter-spacing: 2.5px;
 }
 
-ul {
+.navbar {
+  overflow: hidden;
   position: fixed;
   list-style-type: none;
   width: 100%;
@@ -45,6 +45,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: lightcyan;
+  z-index: 1;
 }
 li {
   float: left;
@@ -56,21 +57,29 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+/* projects button in nav bar */
+.projects {
+  float: right;
+}
 
 /* Change the link color to darkcyan on hover */
 li a:hover {
   background-color: darkcyan;
 }
 
-.projects {
-  float: right;
-}
 .container {
   text-align: center;
 }
 
-label {
-  align-content: center;
+.me-and-lilj {
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 12px 10px 10px 0 rgba(95, 168, 168, 0.8);
 }
 
 #image-of-code {
@@ -82,18 +91,25 @@ label {
   box-shadow: 12px 10px 8px rgba(95, 168, 168, 0.6);
 }
 
-h4 {
+/* .name {
+  margin-top: 20px;
   text-align: center;
-  color: lightcyan;
-}
+   color: lightcyan; 
+} */
 
-#filler {
+.about-me {
+  left: 50%;
+  right: auto;
+
+  justify-content: center;
+  width: 50%;
   background-color: #141d26;
   border: 1px solid darkcyan;
   color: lightcyan;
   text-align: center;
 }
 .projects-container {
+  box-sizing: border-box;
   float: left;
   width: 33.33%;
   padding: 5px;
