@@ -25,14 +25,18 @@ h3 {
   /* color: lightcyan; */
   text-align: center;
 }
+h4 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 #name {
   text-align: center;
   /* color: lightcyan; */
 }
 p {
-  color: lightcyan;
+  /* color: lightcyan; */
   text-align: center;
-  padding: 1px;
+  padding: 1rem;
   letter-spacing: 2.5px;
 }
 
@@ -96,16 +100,15 @@ li a:hover {
   text-align: center;
    color: lightcyan; 
 } */
-
+.about-me-content {
+}
 .about-me {
-  left: 50%;
-  right: auto;
-
-  justify-content: center;
+  margin-left: 50%;
+  margin-right: auto;
+  /* justify-content: center; */
   width: 50%;
   background-color: #141d26;
   border: 1px solid darkcyan;
-  color: lightcyan;
   text-align: center;
 }
 .projects-container {
