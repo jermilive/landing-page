@@ -24,7 +24,9 @@ h1 {
 h2 {
   text-align: center;
 }
-
+h4 {
+  text-align: center;
+}
 #name {
   text-align: center;
   /* color: lightcyan; */
@@ -48,6 +50,9 @@ p {
   background-color: lightcyan;
   z-index: 1;
 }
+.navbar:hover {
+  /* background-color: ghostwhite; */
+}
 
 li {
   float: left;
@@ -64,10 +69,14 @@ li a {
 .projects {
   float: right;
 }
+ul:hover {
+  background-color: ghostwhite;
+}
 
 /* Change the link color to darkcyan on hover */
 li a:hover {
   background-color: darkcyan;
+  color: black;
 }
 
 .container {
@@ -76,7 +85,6 @@ li a:hover {
 
 .me-and-lilj {
   display: block;
-
   margin-left: auto;
   margin-right: auto;
   width: 500px;
@@ -85,43 +93,38 @@ li a:hover {
   box-shadow: 12px 10px 10px 0 rgba(95, 168, 168, 0.8);
 }
 
-/* .name {
-  margin-top: 20px;
-  text-align: center;
-   color: lightcyan; 
-} */
 .about-me-content {
   left: 50%;
+  right: auto;
+  text-align: start;
 }
-/* .about-me {
-  margin-left: 50%;
-  margin-right: auto;
-  width: 50%;
-  background-color: #141d26;
-  border: 1px solid darkcyan;
-  text-align: center;
-} */
-.projects-image-container {
+
+/* .projects-image-container {
   text-align: center;
   box-sizing: border-box;
   float: left;
   width: 33.33%;
   padding: 5px;
-}
-
-#image-of-code {
-  position: relative;
-  /* display: inline-block; */
-  border-radius: 12px;
-  max-width: 100px;
+} */
+.projects-image-container {
+  width: 100%;
   height: auto;
-  /* margin: ;
-  :50px ; */
-  box-shadow: 12px 10px 8px rgba(95, 168, 168, 0.6);
-}
-.galery {
+  /* display: grid; */
+  /* margin: 5%; */
+  /* grid-template-columns: repeat(10, 10vh); */
+  /* grid-template-rows: repeat(10, 20vw); */
+  /* grid-gap: 4rem; */
 }
 
-#image-of-code {
-  text-align: ;
+.image-of-code {
+  width: 15rem;
+  height: auto;
+  margin: 3%;
+  border: 0.2rem solid darkcyan;
+  border-radius: 1rem;
+  filter: blur(0.1999rem);
+}
+.image-of-code:hover {
+  border: 0.2rem solid lightcyan;
+  filter: blur(0);
 }
