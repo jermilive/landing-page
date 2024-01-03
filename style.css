@@ -70,13 +70,13 @@ li a {
   float: right;
 }
 ul:hover {
-  background-color: ghostwhite;
+  /* background-color: ghostwhite; */
 }
 
 /* Change the link color to darkcyan on hover */
 li a:hover {
   background-color: darkcyan;
-  color: black;
+  color: ghostwhite;
 }
 
 .container {
